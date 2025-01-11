@@ -1,4 +1,4 @@
-package in.anbu.altimetrikeval.projalloc;
+package in.anbu.projalloc;
 
 import org.springframework.boot.SpringApplication;
 

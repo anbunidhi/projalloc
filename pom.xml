@@ -8,7 +8,7 @@
 		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.anbu.altimetrikeval</groupId>
+	<groupId>in.anbu</groupId>
 	<artifactId>projalloc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>projalloc</name>

@@ -1,4 +1,4 @@
-package in.anbu.altimetrikeval.projalloc;
+package in.anbu.projalloc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
