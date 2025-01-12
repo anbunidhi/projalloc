@@ -100,7 +100,7 @@
         <mxCell id="ttBJUNCnjP5zw8l4qacc-46" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;shadow=1;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="445" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttBJUNCnjP5zw8l4qacc-47" value="Redis Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;shadow=1;fontColor=default;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-47" value="Redis Cache&lt;div&gt;Microservice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;shadow=1;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="445" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="ttBJUNCnjP5zw8l4qacc-38">
