@@ -40,8 +40,15 @@
         <mxCell id="ttBJUNCnjP5zw8l4qacc-32" value="Project Allocation Webapp - Data Flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="70" y="140" width="310" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ttBJUNCnjP5zw8l4qacc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ttBJUNCnjP5zw8l4qacc-36" target="ttBJUNCnjP5zw8l4qacc-38">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="111" y="322" as="sourcePoint" />
+            <mxPoint x="181" y="322" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="151" y="322" />
+              <mxPoint x="151" y="322" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-36" value="Client" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;verticalAlign=bottom;fontStyle=1;strokeColor=#6c8ebf;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="280" width="40" height="60" as="geometry" />
@@ -89,8 +96,21 @@
         <mxCell id="ttBJUNCnjP5zw8l4qacc-47" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;shadow=1;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="400" y="355" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttBJUNCnjP5zw8l4qacc-61" value="Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="295" width="30" height="30" as="geometry" />
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-61" value="Allocation Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="302.5" width="90" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="296" as="sourcePoint" />
+            <mxPoint x="109" y="296" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="149" y="296" />
+              <mxPoint x="149" y="296" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-66" value="Allocation Actions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="302.5" width="90" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
