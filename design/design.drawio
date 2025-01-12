@@ -37,7 +37,7 @@
         <mxCell id="ttBJUNCnjP5zw8l4qacc-31" value="External Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="695" y="500" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ttBJUNCnjP5zw8l4qacc-32" value="Project Allocation Webapp - Data Flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-32" value="Project Allocation Microservices - Data Flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="70" y="140" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
@@ -53,12 +53,11 @@
         <mxCell id="ttBJUNCnjP5zw8l4qacc-36" value="Client" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;verticalAlign=bottom;fontStyle=1;strokeColor=#6c8ebf;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="280" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttBJUNCnjP5zw8l4qacc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ttBJUNCnjP5zw8l4qacc-38" target="ttBJUNCnjP5zw8l4qacc-46">
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ttBJUNCnjP5zw8l4qacc-38" target="ttBJUNCnjP5zw8l4qacc-46">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="350" y="310" />
-              <mxPoint x="350" y="230" />
+              <mxPoint x="460" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -70,8 +69,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ttBJUNCnjP5zw8l4qacc-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ttBJUNCnjP5zw8l4qacc-38" target="ttBJUNCnjP5zw8l4qacc-47">
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ttBJUNCnjP5zw8l4qacc-38" target="ttBJUNCnjP5zw8l4qacc-47">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ttBJUNCnjP5zw8l4qacc-38" target="ttBJUNCnjP5zw8l4qacc-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-38" value="Project Allocation Microservice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;shadow=1;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
@@ -97,7 +103,7 @@
           <mxGeometry x="400" y="355" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-61" value="Allocation Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="302.5" width="90" height="15" as="geometry" />
+          <mxGeometry x="330" y="287.5" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -110,7 +116,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ttBJUNCnjP5zw8l4qacc-66" value="Allocation Actions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="302.5" width="90" height="15" as="geometry" />
+          <mxGeometry x="100" y="314.5" width="90" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ttBJUNCnjP5zw8l4qacc-74" value="Data ModificationEvents" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="222" width="90" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
